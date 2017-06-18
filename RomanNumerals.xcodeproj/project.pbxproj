@@ -14,6 +14,7 @@
 		012B69331E64A5D400B60799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012B69311E64A5D400B60799 /* LaunchScreen.storyboard */; };
 		012B693E1E64A5D400B60799 /* RomanNumeralsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012B693D1E64A5D400B60799 /* RomanNumeralsTests.swift */; };
 		012B69491E64A5D400B60799 /* RomanNumeralsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012B69481E64A5D400B60799 /* RomanNumeralsUITests.swift */; };
+		012B69571E64A61C00B60799 /* RomanNumeralConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012B69561E64A61C00B60799 /* RomanNumeralConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		012B69441E64A5D400B60799 /* RomanNumeralsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012B69481E64A5D400B60799 /* RomanNumeralsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsUITests.swift; sourceTree = "<group>"; };
 		012B694A1E64A5D400B60799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012B69561E64A61C00B60799 /* RomanNumeralConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				012B692F1E64A5D400B60799 /* Assets.xcassets */,
 				012B69311E64A5D400B60799 /* LaunchScreen.storyboard */,
 				012B69341E64A5D400B60799 /* Info.plist */,
+				012B69561E64A61C00B60799 /* RomanNumeralConverter.swift */,
 			);
 			path = RomanNumerals;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				012B692B1E64A5D400B60799 /* ViewController.swift in Sources */,
 				012B69291E64A5D400B60799 /* AppDelegate.swift in Sources */,
+				012B69571E64A61C00B60799 /* RomanNumeralConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
